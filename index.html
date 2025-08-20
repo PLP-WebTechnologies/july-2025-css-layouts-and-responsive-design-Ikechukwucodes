@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive CSS Layouts Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Responsive CSS Layouts</h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-grid">
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+    </aside>
+    <section class="content">
+      <h2>Welcome!</h2>
+      <div class="card-row">
+        <div class="card">
+          <h3>Flexbox Card 1</h3>
+          <p>This card uses Flexbox for layout.</p>
+        </div>
+        <div class="card">
+          <h3>Flexbox Card 2</h3>
+          <p>Resize the window to see how it adapts.</p>
+        </div>
+        <div class="card">
+          <h3>Flexbox Card 3</h3>
+          <p>Cards stack on smaller screens.</p>
+        </div>
+      </div>
+      <p>
+        This main content area uses CSS Grid for layout. The cards above use Flexbox.
+      </p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2025 Responsive Layouts Demo</p>
+  </footer>
+</body>
+</html>
